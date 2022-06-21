@@ -1,10 +1,75 @@
-.fa {
+header{
+        font-family: 'Staatliches', cursive; 
+        font-size: xx-large; 
+        height: 50px;  
+        box-shadow: 20px 20px 80px 10px whitesmoke inset;
+}
+
+body {
+    background-color: rgb(243,227,227);
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Staatliches', cursive;
+}
+
+.border{
+  border: .5px solid #854c2d;
+  margin: 5px;
+  padding: 10px;
+}
+
+#logo{ height: 50px; float: left;}
+#logo2{height: 50px; float: right;}
+
+.left{float:left; width: 50%;}
+
+.right{float: right;width: 50%;}
+
+.clear{clear: both;}
+
+.white {
+    background-color: transparent;
+    box-shadow: 20px 20px 80px 5px whitesmoke;
+}
+
+section {height: 1127px;}
+
+aside{height: 1127px;}
+
+nav{
+    position: sticky;
+    top: 3px;
+    box-shadow: 20px 20px 80px 10px whitesmoke inset;
+    font-family: 'Staatliches', cursive;
+    font-size: larger;
+    height: 50px;
+  }
+
+h2{font-size: xx-large;}
+
+p{font-weight: 500; 
+  text-align: justify; 
+  font-family: 'DM Sans', sans-serif;
+  line-height: 25px;
+}
+
+a{text-decoration: none;}
+a:hover{background-color: rgb(183,171,183);}
+a:visited{color: #854c2d;}
+
+li{display: inline;}
+
+#hero {background-image: url("img/herofinal.jpg"); height: 550px;}
+
+  .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    border-radius: 50%;
   }
   
   .fa:hover {
@@ -20,4 +85,3 @@
     background: #55ACEE;
     color: white;
   }
-  
