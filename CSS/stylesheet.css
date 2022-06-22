@@ -33,9 +33,7 @@ body {
     box-shadow: 20px 20px 80px 5px whitesmoke;
 }
 
-section {height: 1127px;}
-
-aside{height: 1127px;}
+section, aside {height: 1120px;}
 
 nav{
     position: sticky;
@@ -48,7 +46,8 @@ nav{
 
 h2{font-size: xx-large;}
 
-p{font-weight: 500; 
+p{
+  font-weight: 500; 
   text-align: justify; 
   font-family: 'DM Sans', sans-serif;
   line-height: 25px;
@@ -61,6 +60,38 @@ a:visited{color: #854c2d;}
 li{display: inline;}
 
 #hero {background-image: url("img/herofinal.jpg"); height: 550px;}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 15px; 
+  border: 2px solid whitesmoke; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 5px; 
+  margin-bottom: 16px; 
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
 
   .fa {
     padding: 20px;
