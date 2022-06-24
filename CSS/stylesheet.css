@@ -1,65 +1,81 @@
 header{
         font-family: 'Staatliches', cursive; 
         font-size: xx-large; 
-        height: 50px;  
+        height: 55px;  
         box-shadow: 20px 20px 80px 10px whitesmoke inset;
 }
 
+#hero {background-image: url("img/herofinal.jpg"); height: 500px; width: 100%;}
+
 body {
-    background-color: rgb(243,227,227);
-    background-size: cover;
+    background: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     font-family: 'Staatliches', cursive;
 }
 
 .border{
-  border: .5px solid #854c2d;
   margin: 5px;
-  padding: 10px;
+  padding: 0px;
 }
 
-#logo{ height: 50px; float: left;}
-#logo2{height: 50px; float: right;}
-
-.left{float:left; width: 50%;}
-
-.right{float: right;width: 50%;}
+#logo{ height: 55px; float: left;}
 
 .clear{clear: both;}
 
-.white {
-    background-color: transparent;
-    box-shadow: 20px 20px 80px 5px whitesmoke;
-}
+.white {background-color: transparent;}
 
-section, aside {height: 1120px;}
+section, aside {height: auto; width: auto;}
 
 nav{
     position: sticky;
     top: 3px;
-    box-shadow: 20px 20px 80px 10px whitesmoke inset;
+    box-shadow: 20px 20px 80px 10px black inset;
     font-family: 'Staatliches', cursive;
     font-size: larger;
-    height: 50px;
+    height: 55px;
+    margin: 3px;
+    padding: 3px;
   }
 
-h2{font-size: xx-large;}
+h2{font-size: xx-large; color: black;}
 
 p{
+  color: black;
   font-weight: 500; 
-  text-align: justify; 
+  text-align: center; 
   font-family: 'DM Sans', sans-serif;
   line-height: 25px;
+  padding: 35px;
 }
 
 a{text-decoration: none;}
 a:hover{background-color: rgb(183,171,183);}
-a:visited{color: #854c2d;}
+a:visited{color: #ffffff;}
 
 li{display: inline;}
 
-#hero {background-image: url("img/herofinal.jpg"); height: 550px;}
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mail{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 200;
+  text-shadow:  5px 5px 10px orange;
+}
+
+footer{background-color: lightgray;}
+
+.box{
+  display: ;
+  padding: 15px;
+  
+}
 
 input[type=text], select, textarea {
   width: 100%; 
@@ -85,12 +101,13 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 15px;
+  border-radius: px;
   background-color: #f2f2f2;
   padding: 20px;
   width: 60%;
   margin: auto;
   margin-top: 30px;
+  text-align: left;
 }
 
   .fa {
@@ -108,11 +125,11 @@ input[type=submit]:hover {
   }
   
   .fa-facebook {
-    background: #3B5998;
+    background: black;
     color: white;
   }
   
   .fa-twitter {
-    background: #55ACEE;
+    background: black;
     color: white;
   }
