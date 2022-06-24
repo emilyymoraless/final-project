@@ -5,10 +5,8 @@ header{
         box-shadow: 20px 20px 80px 10px whitesmoke inset;
 }
 
-#hero {background-image: url("img/herofinal.jpg"); height: 500px; width: 100%;}
-
 body {
-    background: white;
+    background: rgb(229, 228, 227);
     text-align: center;
     padding: 10px;
     font-family: 'Staatliches', cursive;
@@ -25,7 +23,14 @@ body {
 
 .white {background-color: transparent;}
 
-section, aside {height: auto; width: auto;}
+section {height: auto; width: auto;}
+
+.left{
+  padding: 10px;
+  background: rgb(114,127,181);
+  background: linear-gradient(225deg, rgba(114,127,181,1) 28%, rgba(192,201,239,1) 73%);
+
+}
 
 nav{
     position: sticky;
@@ -69,10 +74,9 @@ li{display: inline;}
   text-shadow:  5px 5px 10px orange;
 }
 
-footer{background-color: lightgray;}
+footer{background-color: lightgray; box-shadow: 20px 20px 80px 5px black inset;}
 
 .box{
-  display: ;
   padding: 15px;
   
 }
@@ -109,27 +113,3 @@ input[type=submit]:hover {
   margin-top: 30px;
   text-align: left;
 }
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: black;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: black;
-    color: white;
-  }
